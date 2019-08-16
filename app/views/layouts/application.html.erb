@@ -13,7 +13,8 @@
   </head>
 
   <body>
-    <h1>Meijer's Cocktails <i class="fas fa-cocktail"></i></h1>
+    <%= render './navbar' %>
+    <!-- render n'appelle que des partiales, pas besoin d'underscore -->
     <%= yield %>
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
     <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->
