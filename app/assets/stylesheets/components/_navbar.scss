@@ -1,9 +1,13 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  background-color: #D2D6EF;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #main-title {
   font-family: 'Monoton', cursive;
-  font-color: #AF929D;
+  color: pink;
 }
+
